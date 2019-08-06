@@ -1,0 +1,5 @@
+.DS_Store
+sign-up-with-validation.code-workspace
+*.md
+node_modules
+*.json
