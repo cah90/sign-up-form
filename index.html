@@ -16,6 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css">
 
+
     <title>Sign up</title>
 
   </head>
@@ -36,13 +37,18 @@
         
         <div class="wrapper_right_form">
           <form action="#">
-            <input type="text" placeholder="First Name">
+            
+            <input type="text" id="first_name" placeholder="First Name">
+            <div id="error_first_name" class="wrapper_right_form-error"></div>
             <br>
-            <input type="text" placeholder="Last Name">
+            <input type="text" id="last_name" placeholder="Last Name">
+            <div id="error_last_name" class="wrapper_right_form-error"></div>
             <br>
-            <input type="text" placeholder="Email Address">
+            <input type="text"  id="email" placeholder="Email Address">
+            <div id="error_email" class="wrapper_right_form-error"></div>
             <br>
-            <input type="text" placeholder="Password">
+            <input type="text" id="password" placeholder="Password">
+            <div id="error_password" class="wrapper_right_form-error"></div>
             <br>
             <button>Claim your free trial</button>
             <h6>By clicking the button, you are agreeing to our <a href="#">Terms and Services.</a></h6>
@@ -51,5 +57,11 @@
       </div> <!-- end of wrapper_right -->
     </div> <!-- end of wrapper --->
   </body>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- javascript -->
+<script type="text/javascript" src="javascript/validation.js"></script>
 
 </html>

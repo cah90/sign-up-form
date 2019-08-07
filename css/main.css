@@ -100,6 +100,9 @@ body {
     .wrapper_right_form {
       margin-bottom: 500px; } }
 
+.wrapper_right_form form {
+  padding-top: 25px; }
+
 .wrapper_right_form input {
   border-radius: 5px;
   width: 80%;
@@ -108,7 +111,6 @@ body {
   letter-spacing: 0.01rem;
   font-size: 0.9rem;
   color: #3e3c49;
-  margin-top: 25px;
   padding-left: 20px;
   border: 1px solid #b9b6d3; }
 
@@ -123,12 +125,19 @@ body {
     .wrapper_right_form input:focus {
       font-size: 0.8rem; } }
 
+.wrapper_right_form-error {
+  color: #ff7a7a;
+  text-align: right;
+  font-style: italic;
+  margin-right: 70px;
+  font-size: 0.9rem; }
+
 .wrapper_right_form form button {
   background-color: #38cc8c;
   width: 80%;
   height: 60px;
   border-radius: 5px;
-  margin-top: 25px;
+  margin-top: 15px;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -137,6 +146,7 @@ body {
   box-shadow: 0px 2px #32b77e;
   border: 1px solid #38cc8c;
   margin-bottom: 15px;
+  outline: none;
   cursor: pointer; }
   @media (max-width: 1300px) {
     .wrapper_right_form form button {
