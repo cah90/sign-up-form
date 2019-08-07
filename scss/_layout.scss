@@ -160,6 +160,13 @@
     
 }
 
+.error {
+    border: 2px solid $color-red;
+    background-image: url(../images/icon-error.svg) no-repeat;
+    
+    
+}
+
 .wrapper_right_form form button {
     background-color: $color-green;
     width: 80%;

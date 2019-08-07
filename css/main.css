@@ -132,6 +132,10 @@ body {
   margin-right: 70px;
   font-size: 0.9rem; }
 
+.error {
+  border: 2px solid #ff7a7a;
+  background-image: url(../images/icon-error.svg) no-repeat; }
+
 .wrapper_right_form form button {
   background-color: #38cc8c;
   width: 80%;
