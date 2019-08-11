@@ -133,6 +133,7 @@
     font-size: 0.9rem;
     color: $color-darkBlue;
     padding-left: 20px;
+   
     border: 1px solid $color-grayBlue;
 
 }
@@ -160,9 +161,12 @@
     
 }
 
-.error {
+.wrapper_right_form input.error {
     border: 2px solid $color-red;
-    background-image: url(../images/icon-error.svg) no-repeat;
+    color: $color-red;
+    background-image: url("../images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 95% center;
     
     
 }
