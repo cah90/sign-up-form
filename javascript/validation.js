@@ -60,6 +60,10 @@ $( document ).ready( function (){
             $("#email").addClass("error");
             $("#error_email").html("Looks like this is not an email");
             $("#email").val("email@example.com");
+            $("#email").on("click", function(){
+                $("#email").val("");
+                $("#email").attr("placeholder", "");
+            });
     
         } else {
             $("#email").removeClass("error");
